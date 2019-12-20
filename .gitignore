@@ -1,14 +1,1 @@
-/venv
-/Kawasaki.py
-/moto.txt
-import os
 
-try:
-    os.mkdir("gy_C")
-except FileExistsError:
-    print("文件已存在")
-else:
-    print("文件夹创建成功")
-finally:
-    print("创建文件夹结束")
-print("sdfsdf")
